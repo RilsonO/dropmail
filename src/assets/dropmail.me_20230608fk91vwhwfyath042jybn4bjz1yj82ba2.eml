@@ -1,0 +1,51 @@
+Received: by mail-yw1-x1131.google.com with SMTP id 00721157ae682-565ba6aee5fso404127b3.1
+        for <fofunuheput3@mimimail.me>; Wed, 07 Jun 2023 18:12:53 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20221208; t=1686186772; x=1688778772;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=sX9h5QoXEcMCPnWUeQYUw6ifUZYI3M3maoVmEj54oVs=;
+        b=fbem2hnuOF/fC6WOGYOTSEiRRBEEocxkAngNtWaMxRk0w+Afxykp9D5LQPm4xu0ENX
+         04GcPvFqAE1wpB+DGwGPkEgQUOqToTmD4oAWtTD6TR/5Fyz+q5+Y7xm6t/Uexh9czRgT
+         GBD4hjBG9+mQQbHisTsAfhXdYpdg36Q4Z2nY8Ib4JY3b7hjHNMQvO6NvXPTfoFk1FonG
+         gfE2nSruYPp75jhHU4GvLoDR5IFJXoTnG9VZ8paxNZ8BpbEc+/UBou2XhivSLJ6ozAHD
+         w6k2iaOLqEnVQxztCsYpsUcA4UE+3HngIVNbhx3G76v5s94cJXRnNXNQ3UdKPYn+Ng4d
+         5CbQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20221208; t=1686186772; x=1688778772;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=sX9h5QoXEcMCPnWUeQYUw6ifUZYI3M3maoVmEj54oVs=;
+        b=JT89B95SRjZGXpSGygS7xz47OcIIQwfNziHbhvPNTAyVNDTCLdDN/G5DbQfivfkYsa
+         zfA5GxgXjHSE9aXsr5DjynOJzC8gWSWuXGK5oIwVlE7QTABKWwJ2stTUlvchUGyF6/My
+         +T5Um2y5zXtB/dxfP2bOw0x173QbLtxcqWZieA2yeJhgmrr1LW/h/6f+vh6mMsKfa/VL
+         benYlrvs++xx8NyPhCR56rSttAyNt8Bs7pGFX6kbW6okQeNi002LBiDQMW7d+B0kPfCm
+         D1pR53mGvnUxv+FzxT4PbZk8vxWgLvUm6/oAToOtoTzwLs+f6IChwQ2N2k/3hAuBYjwy
+         Q3kw==
+X-Gm-Message-State: AC+VfDyOxfoykdG/bnKV3ASuylY+NcjPuflUnSNKSr5Du4vk4lgWKvhL
+	8r5kldDRx6RLcjooyoaxM3wY9GkpHK+H2y0+9Pw9MMJ4e2w=
+X-Google-Smtp-Source: ACHHUZ510zblJTY3ZQSyQD3fXG09sJTI9J2DpBN4PbF4bF1jp7zGCV9kcWFo9H3M0+sFduqewPnosWqIRKoaGs9GZqs=
+X-Received: by 2002:a0d:e68d:0:b0:569:74f4:ffa with SMTP id
+ p135-20020a0de68d000000b0056974f40ffamr8689165ywe.11.1686186772448; Wed, 07
+ Jun 2023 18:12:52 -0700 (PDT)
+MIME-Version: 1.0
+From: Rilson Oliveira <rilson2.0@gmail.com>
+Date: Wed, 7 Jun 2023 22:12:41 -0300
+Message-ID: <CAPjYhiWqAndE46H923HCp0Lwtj9S8Ghsy=Zo1hKBkOPjg3Bb=w@mail.gmail.com>
+Subject: teste
+To: fofunuheput3@mimimail.me
+Content-Type: multipart/alternative; boundary="00000000000098ca8505fd93f3d7"
+
+--00000000000098ca8505fd93f3d7
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+este =C3=A9 um email de testes
+
+--00000000000098ca8505fd93f3d7
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">este =C3=A9 um email de testes</div>
+
+--00000000000098ca8505fd93f3d7--

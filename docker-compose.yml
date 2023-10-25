@@ -1,0 +1,13 @@
+version: '3'
+services:
+  app:
+    container_name: my-react-app
+    image: node:18
+    command: bash -c 'npm install -g npm@10.2.1 && npm install && npm run dev'
+    working_dir: /app
+    volumes:
+      - .:/app
+    ports:
+      - '5173:5173'
+    environment:
+      - CHOKIDAR_USEPOLLING=true
